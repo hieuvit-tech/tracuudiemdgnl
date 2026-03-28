@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
             await fetch("https://script.google.com/macros/s/AKfycbwyi5MlCQ25c6_J4z2WuSU_0Phosd8vNSLY_D6zMHRHhTQFbyLaRTPOTKFs7ABez18Y/exec", {
                 method: "POST",
                 headers: {
-                    "Content-Type": "application/json"
+                    "Content-Type": "text/plain;charset=utf-8"
                 },
                 body: JSON.stringify({
                     sbd: sbd,
